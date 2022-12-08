@@ -1,0 +1,29 @@
+.card-image{
+    background-color: rgb(209, 182, 245);
+    border-radius: 10px;
+    margin: 10px 0;
+    height: 8rem;
+    display: flex;
+}
+
+.card-image img{
+    background-color: rgb(209, 182, 245);
+    margin: auto;
+
+}
+
+p{
+    color: #babaca;
+}
+
+h4{
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 700;
+}
+
+.card-image hover{
+    cursor: pointer;
+    transition: filter 0.2s;
+    filter: brightness(0.9)
+}
+
